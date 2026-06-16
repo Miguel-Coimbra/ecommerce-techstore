@@ -1,0 +1,73 @@
+header {
+    margin: 16px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    font-size: 18px;
+}
+
+.site-options {
+    display: flex;
+    align-items: center;
+    gap: 40px;    
+}
+
+.logo-site {
+    font-family: var(--font-icon);
+    font-size: 36px;
+}
+
+.profile-options {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.your-profile, .your-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+}
+
+.your-profile:hover, .your-cart:hover{
+    cursor: pointer;
+    background-color: var(--third-color);
+    border-radius: 50%;
+
+}
+
+.search-box {
+    position: relative;
+    display: inline-block;
+}
+
+.search-field {
+    background-color: var(--fourth-color);
+    padding: 10px 40px 10px 15px;
+    font-size: 16px;
+    border: none;
+    color: var(--second-color);
+    border-radius: 12px;
+    outline: none;
+}
+
+.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 35px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}

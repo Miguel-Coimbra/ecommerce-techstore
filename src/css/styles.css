@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --first-color: #000105;
+    --second-color: #f0f0f0;
+    --third-color: #024ab8;
+    --fourth-color: #0f0f0f;
+    --font-default: 'Archivo', sans-serif;
+    --font-icon: 'Press Start 2P', sans-serif;
+}
+
+body {
+    background-color: var(--first-color);
+    color: var(--second-color);
+    font-family: var(--font-default);
+}
+
+li {
+    list-style: none;
+    cursor: default;
+}
+
+li:hover {
+    cursor: pointer;
+    color: var(--third-color);
+}
+
+span {
+    color: var(--third-color);
+}
