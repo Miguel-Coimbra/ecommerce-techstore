@@ -22,6 +22,7 @@ body {
 li {
     list-style: none;
     cursor: default;
+    transition: 0.3s;
 }
 
 li:hover {

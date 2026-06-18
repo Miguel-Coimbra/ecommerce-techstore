@@ -36,13 +36,13 @@ nav {
     justify-content: center;
     width: 42px;
     height: 42px;
+    border-radius: 50%;
+    transition: 0.3s;
 }
 
 .your-profile:hover, .your-cart:hover{
     cursor: pointer;
     background-color: var(--third-color);
-    border-radius: 50%;
-
 }
 
 .search-box {
