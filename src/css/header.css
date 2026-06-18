@@ -1,8 +1,8 @@
 header {
-    margin: 16px 12px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 16px 12px;
 }
 
 nav {
