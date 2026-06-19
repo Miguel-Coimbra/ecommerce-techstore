@@ -80,9 +80,10 @@ main {
 }
 
 .products-menu {
-    display: flex;
+    display: grid;
+    width: 1500px;
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
     gap: 24px;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -92,7 +93,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 300px;
+    width: 100%;
     min-height: 420px;
     border-radius: 24px;
     padding: 24px 20px 28px;
@@ -129,3 +130,26 @@ main {
     background-color: transparent;
 }
 
+.best-sellers {
+    display: flex;
+    width: 1500px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.best-sellers h2 {
+    color: var(--second-color);
+    font-size: 32px;
+    margin-top: 8px;
+}
+
+.best-sellers-left .highlight-products {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.best-sellers .see-all {
+    font-weight: 600;
+    cursor: pointer;
+}
