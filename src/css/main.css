@@ -1,8 +1,10 @@
 main {
     margin-top: 48px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 60px;
 }
 
 .main-container {
@@ -42,6 +44,7 @@ main {
     color: var(--second-color);
     font-family: var(--font-default);
     font-size: 16px;
+    font-weight: 600;
     max-width: fit-content;
     padding: 14px;
     border-radius: 8px;
@@ -74,4 +77,48 @@ main {
 .deliver-security img,
 .deliver-guarantee img {
     width: 40px;
+}
+
+.products-menu {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background-color: var(--fourth-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    min-height: 420px;
+    border-radius: 24px;
+    padding: 24px 20px 28px;
+    gap: 24px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-8px);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.product h2 {
+    color: var(--second-color);
+    font-size: 24px;
+    text-align: center;
+}
+
+.product span {
+    color: var(--third-color);
+    font-weight: 600;
+    cursor: pointer;
 }
