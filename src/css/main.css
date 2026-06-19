@@ -106,7 +106,7 @@ main {
 
 .product img {
     width: 100%;
-    height: auto;
+    height: 220px;
     border-radius: 20px;
     object-fit: cover;
 }
@@ -121,4 +121,10 @@ main {
     color: var(--third-color);
     font-weight: 600;
     cursor: pointer;
+}
+
+.product img {
+    object-fit: contain;
+    object-position: center;
+    background-color: transparent;
 }
