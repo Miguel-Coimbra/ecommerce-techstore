@@ -88,6 +88,7 @@ main {
 }
 
 .product {
+    cursor: default;
     background-color: var(--fourth-color);
     display: flex;
     flex-direction: column;
@@ -166,4 +167,12 @@ main {
     grid-template-columns: repeat(5, minmax(200px, 1fr));
     gap: 24px;
     justify-content: center;
+}
+
+.best-sellers-row .product h2{
+    text-align: left;
+}
+
+.best-sellers-row .product-grade, .best-sellers-row .product .product-price {
+    align-self: flex-start;
 }
