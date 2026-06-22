@@ -169,6 +169,10 @@ main {
     justify-content: center;
 }
 
+.best-sellers-row .product:hover {
+    cursor: pointer;
+}
+
 .best-sellers-row .product h2{
     text-align: left;
 }
@@ -176,3 +180,42 @@ main {
 .best-sellers-row .product-grade, .best-sellers-row .product .product-price {
     align-self: flex-start;
 }
+
+.store-info {
+    background-color: var(--fourth-color);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    height: 150px;
+    padding: 30px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.info-logo img {
+    width: 60px;
+}
+
+.all-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.info-title {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.info-asnwer {
+    font-size: 10px;
+}
+
