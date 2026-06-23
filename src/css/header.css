@@ -38,7 +38,7 @@ nav {
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .your-profile:hover, .your-cart:hover{
