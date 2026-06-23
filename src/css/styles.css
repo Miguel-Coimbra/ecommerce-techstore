@@ -17,12 +17,14 @@ body {
     background-color: var(--first-color);
     color: var(--second-color);
     font-family: var(--font-default);
+    min-height: 100vh;
+    cursor: default;
 }
 
 li {
     list-style: none;
     cursor: default;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 li:hover {

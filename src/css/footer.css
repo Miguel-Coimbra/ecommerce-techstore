@@ -1,13 +1,16 @@
 footer {
+    width: 100%;
     background-color: var(--fourth-color);
     margin-top: 40px;
 }
 
-.footer-upper-part {
-    padding-top: 36px;
+.footer-banner {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
 .store-socials {
@@ -34,3 +37,66 @@ footer {
     cursor: pointer;
 }
 
+.navigation,
+.categories {
+    display: flex;
+    height: 180px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-titles {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navigation-menu,
+.categories-menu {
+    margin-top: 8px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.newsletter {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.email-offer {
+    max-width: 200px;
+}
+
+.submit-email {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-email {
+    background-color: var(--fourth-color);
+    padding: 10px 40px 10px 15px;
+    font-size: 16px;
+    border: 1px solid var(--second-color);
+    color: var(--second-color);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    outline: none;
+}
+
+.register-email {
+    height: 40px;
+    margin-left: -0px;
+    background-color: var(--third-color);
+    color: var(--second-color);
+    padding: 8px;
+    border: none;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
