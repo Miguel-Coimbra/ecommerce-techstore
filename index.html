@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="page-upper-part">
         <nav>
             <div class="logo-site">
                 Tech.<br><span>Store</span>
@@ -30,7 +30,7 @@
 
 
             <ul class="site-options">
-                <li>Início</li>
+                <li class="page-start">Início</li>
                 <li>Produtos</li>
                 <li>Categorias</li>
                 <li>Ofertas</li>
@@ -63,7 +63,7 @@
             <h3>Desempenho e precisão</h3>
             <h1>Periféricos que<br>levam seu jogo<br>para <span>outro nível</span></h1>
             <p>Encontre os melhores periféricos com qualidade,<br> tecnologia e o melhor preço!</p>
-            <button class="see-products">Ver Produtos ➜</button>
+            <button class="see-products" id="see-products">Ver Produtos ➜</button>
 
             <div class="deliver-infos">
                 <p class="deliver-fast"><img
@@ -78,7 +78,7 @@
             </div>
         </div>
 
-        <div class="products-menu">
+        <div class="products-menu" id="products-menu">
             <div class="product keyboards">
                 <img src="./src/images/teclado-menu.png" alt="imagem de um teclado">
                 <h2>Teclados</h2>
@@ -115,7 +115,7 @@
                 <span class="see-all">Ver todos ➜</span>
             </div>
 
-            <div class="best-sellers-row">
+            <div class="best-sellers-row" id="best-sellers-row">
                 <div class="first-seller product">
                     <img src="./src/images/headset-genesis.png" alt="Headset da Genesis">
                     <h2>Headset Gamer Genesis Radon 210</h2>
@@ -149,7 +149,7 @@
             </div>
         </div>
 
-        <div class="store-info">
+        <div class="store-info" id="store-info">
             <div class="for-who info">
                 <div class="info-logo">
                     <img src="./src/images/stadia_controller_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
@@ -215,11 +215,11 @@
             <div class="navigation">
                 <p class="footer-titles">Navegação</p>
                 <ul class="navigation-menu">
-                    <li>Início</li>
+                    <li id="page-start">Início</li>
                     <li>Produtos</li>
-                    <li>Categorias</li>
-                    <li>Ofertas</li>
-                    <li>Sobre Nós</li>
+                    <li id="show-products-categories">Categorias</li>
+                    <li id="best-sellers">Ofertas</li>
+                    <li id="about-us">Sobre Nós</li>
                     <li>Contato</li>
                 </ul>
             </div>
@@ -246,6 +246,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./src/js/script.js"></script>
 </body>
 
 </html>
